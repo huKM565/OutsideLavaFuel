@@ -1,0 +1,5 @@
+name: OutsideLavaFuel
+version: '1.0-SNAPSHOT'
+main: ru.hukm.outsideLavaFuel.OutsideLavaFuel
+api-version: '1.21'
+authors: [ huKM ]
