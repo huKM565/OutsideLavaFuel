@@ -13,15 +13,34 @@
 
 <h1>Config</h1>
 <ul>
-    canBurn - Whether to run burn to furnaces when they have lava nearby and no fuel. Default - false<br/>
-    canSpeedUpBurn - Whether to speed up the cooking process when lava is nearby. Default - true<br/>
-    additionalSpeedBurn - How much additional cooking speed to add per lava block nearby. Default - 1.0<br/>
-    maxLavaBlocksUsedTogether - Maximum number of lava blocks that can contribute to the speed boost. Default - 6<br/>
-    aroundBlockPositions - The location of lava blocks relative to the furnace, which can affect the burn<br/>
+  <li>
+    canBurn - Whether to run burn to furnaces when they have lava nearby and no fuel.<br>
+    Default - false
+  </li>
+  <li>
+    canSpeedUpBurn - Whether to speed up the cooking process when lava is nearby.<br>
+    Default - true
+  </li>
+  <li>
+    additionalSpeedBurn - How much additional cooking speed to add per lava block nearby.<br>
+    Default - 1.0
+  </li>
+  <li>
+    maxLavaBlocksUsedTogether - Maximum number of lava blocks that can contribute to the speed boost.<br>
+    Default - 6
+  </li>
+  <li>
+    aroundBlockPositions - The location of lava blocks relative to the furnace, which can affect the burn
+  </li>
 </ul>
 
-<h2>Versions</h2>
-<p>Tested versions: 1.21.6</p>
-<p>Available versions: 1.21 - 1.21.x</p>
+<hr align="center"></hr>
+
+<h1>Versions</h1>
+<ul>
+    <li>Tested versions: 1.21.6</li>
+    <li>Available versions: 1.21 - 1.21.x</li>
+    <h3>Lower versions will not work correctly.</h3>
+</ul>
 
 
