@@ -1,0 +1,20 @@
+# Whether to run burn to furnaces when they have lava nearby and no fuel
+canRunBurn: false
+# Whether to speed up the cooking process when lava is nearby
+canSpeedUpBurn: true
+
+# How much additional cooking speed to add per lava block nearby
+additionalSpeedBurn: 1.0
+# Maximum number of lava blocks that can contribute to the speed boost
+maxLavaBlocksUsedTogether: 6
+
+# Positions around a block to check for lava
+# Each position is relative to the furnace block
+# Default positions are the 6 adjacent blocks (up, down, left, right, front, back)
+aroundBlockPositions:
+  - 1.0, 0.0, 0.0  # Right
+  - -1.0, 0.0, 0.0  # Left
+  - 0.0, 1.0, 0.0  # Up
+  - 0.0, -1.0, 0.0  # Down
+  - 0.0, 0.0, 1.0  # Front
+  - 0.0, 0.0, -1.0  # Back
