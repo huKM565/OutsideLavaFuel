@@ -6,7 +6,7 @@
 
     <groupId>ru.hukm</groupId>
     <artifactId>OutsideLavaFuel</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>ALPHA-0.1.0</version>
     <packaging>jar</packaging>
 
     <name>OutsideLavaFuel</name>
