@@ -44,7 +44,7 @@ class FurnacesManager {
 
                 additionalTicks.value += acceptableCountLavaNear * Config.getAdditionalSpeedBurn()
 
-                if(Config.getIsCanBurnSpeedUp() && furnaceState.burnTime != 0.toShort()) {
+                if(Config.getIsCanBurnSpeedUp() && furnaceState.burnTime != 0.toShort() && furnaceState.inventory.smelting != null) {
                     furnaceState.cookTime = (furnaceState.cookTime + additionalTicks.value.toInt()).toShort()
                     furnaceState.cookTime = abs(furnaceState.cookTime.toInt()).toShort()
                 }
